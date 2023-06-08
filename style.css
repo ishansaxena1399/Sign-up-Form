@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+
+}
+
+.leaves {
+    height: 100vh;
+}
+
+.left {
+    position: relative;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 700px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.odin-text {
+    font-size: 20rem;
+    margin: 10px;
+    color: white;
+    font-family: Norse-Bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #A7ECEE;
+}
+
+
+.container-1 {
+    padding-left: 100px;
+    padding-top: 400px
+}
+
+h2 {
+    font-size: 5rem;
+    width: 70%;
+}
+
+
+.form-container {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputfields {
+    display:flex;
+    padding-top: 100px;
+    gap: 500px;
+}
+
+.info-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.info-2 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.form-container {
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+
+label {
+    font-size: 3rem;
+}
+
+input {
+    font-size: 4rem;
+}
+
+
+
+button {
+    width: 800px;
+    margin-top: 500px;
+    padding: 20px 200px;
+    font-size: 3rem;
+}
