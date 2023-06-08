@@ -8,12 +8,13 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
+    height: 99vh;
+    width: 100vw;
 
 }
 
 .leaves {
-    height: 100vh;
+    height: 99vh;
 }
 
 .left {
@@ -25,14 +26,18 @@ body {
     justify-content: center;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-    top: 700px;
+    top: 200px;
     width: 100%;
     align-items: center;
     gap: 10px;
 }
 
+.odin-img {
+    height: 100px;
+}
+
 .odin-text {
-    font-size: 20rem;
+    font-size: 5rem;
     margin: 10px;
     color: white;
     font-family: Norse-Bold;
@@ -41,25 +46,28 @@ body {
 .right {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 99vh;
     width: 100%;
-    background-color: #A7ECEE;
+    background-color: #F9F5F6;
 }
 
 
 .container-1 {
-    padding-left: 100px;
-    padding-top: 400px
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 100%;
+
 }
 
 h2 {
-    font-size: 5rem;
-    width: 70%;
+    font-size: 1.5rem;
+    width: 60%;
 }
 
 
 .form-container {
     width: 100%;
+    height: 100%;
 }
 
 form {
@@ -69,8 +77,8 @@ form {
 
 .inputfields {
     display:flex;
-    padding-top: 100px;
-    gap: 500px;
+    padding-top: 10px;
+    gap: 100px;
 }
 
 .info-1 {
@@ -89,25 +97,63 @@ form {
 
 .form-container {
     background-color: white;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 
 label {
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 input {
-    font-size: 4rem;
+    font-size: 1rem;
+    border: #E5E7EB 2px solid;
+}
+
+input:focus {
+    outline: none !important;
+    border: 3px solid blue;
+    box-shadow: 2px 2px;
+    
+}
+
+input:invalid {
+    outline: none !important;
+    border: 3px solid red;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 60px;
+}
+
+.buttondiv {
+    height: 100%;
 }
 
 
-
 button {
-    width: 800px;
-    margin-top: 500px;
-    padding: 20px 200px;
-    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #596D48;
+    color: white;
+    border: white 2px solid;
+}
+
+button:hover {
+    background-color: #606C5D;
+}
+
+button:active {
+    background-color: #B31312;
+}
+
+
+h3 {
+    margin-left: 50px;
+}
+
+a {
+    color: red;
 }
